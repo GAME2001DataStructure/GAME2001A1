@@ -126,6 +126,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayBase.h" />
     <ClInclude Include="OrderedArray.h" />
     <ClInclude Include="UnorderedArray.h" />
   </ItemGroup>
