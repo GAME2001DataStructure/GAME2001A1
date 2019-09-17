@@ -9,7 +9,7 @@ class UnorderedArray : public ArrayBase<DataType>
 private :
 
 public:
-	UnorderedArray(int iMaxSize = 0, int iGrowSize = 1);
+	UnorderedArray(int iMaxSize = 0, int iGrowSize = 2);
 	virtual ~UnorderedArray();
 
 	//Search using linear search(Brute force searching)

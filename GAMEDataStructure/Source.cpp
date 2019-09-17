@@ -2,7 +2,7 @@
 
 int main()
 {
-	OrderedArray<int> array(2, 1);
+	OrderedArray<int> array(2, 2);
 
 	array.PrintArray();
 

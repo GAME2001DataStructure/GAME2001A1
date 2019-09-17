@@ -10,7 +10,7 @@ private :
 	bool m_bPreventDuplicate;
 
 public :
-	OrderedArray(int iMaxSize = 0, int iGrowSize = 1, bool bPreventDuplicate = true);
+	OrderedArray(int iMaxSize = 0, int iGrowSize = 2, bool bPreventDuplicate = true);
 	virtual ~OrderedArray();
 
 	virtual void Push(DataType Data) override;

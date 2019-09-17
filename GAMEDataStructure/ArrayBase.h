@@ -15,7 +15,7 @@ protected :
 	int m_iNumElements;
 
 public :
-	ArrayBase(int iMaxSize = 0, int iGrowSize = 1);
+	ArrayBase(int iMaxSize = 0, int iGrowSize = 2);
 	virtual ~ArrayBase();
 
 	virtual void Push(DataType Data);
