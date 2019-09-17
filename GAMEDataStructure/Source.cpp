@@ -31,6 +31,12 @@ int main()
 
 	std::cout << array[array.Search(9)] << std::endl;
 
+	array.Pop();
+	array.PrintArray();
+
+	array.Clear();
+	array.PrintArray();
+
 
 	return 0;
 }
